@@ -14,7 +14,7 @@ void setup() {
 }
 
 void loop() {
-  Serial.println(millis());
+  Serial.println(String(millis()) + " since + " + String(millis()/1000) + " seconds");
   delay(2000);
   // put your main code here, to run repeatedly:
 }
